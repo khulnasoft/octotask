@@ -45,9 +45,6 @@
     "@octokit/request": "^8.1.6",
     "@octokit/types": "^12.3.0",
     "@octokit/webhooks": "^12.0.10",
-    "@octotask/get-private-key": "npm:@probot/get-private-key@^1.1.2",
-    "@octotask/octokit-plugin-config": "npm:@probot/octokit-plugin-config@^2.0.1",
-    "@octotask/pino": "npm:@probot/pino@^2.5.0",
     "@types/express": "^4.17.21",
     "bottleneck": "^2.19.5",
     "commander": "^12.0.0",
@@ -57,7 +54,6 @@
     "ioredis": "^5.3.2",
     "js-yaml": "^4.1.0",
     "lru-cache": "npm:@wolfy1339/lru-cache@^11.0.2-patch.1",
-    "octokit-auth-octotask": "^3.0.1",
     "pino": "^9.0.0",
     "pino-http": "^10.0.0",
     "pkg-conf": "^3.1.0",
@@ -87,7 +83,11 @@
     "tsd": "^0.31.0",
     "typedoc": "^0.26.0",
     "typescript": "^5.2.2",
-    "vitest": "^2.0.0"
+    "vitest": "^2.0.0",
+    "@octotask/get-private-key": "npm:@probot/get-private-key@^1.1.2",
+    "@octotask/octokit-plugin-config": "npm:@probot/octokit-plugin-config@^2.0.1",
+    "@octotask/pino": "npm:@probot/pino@^2.5.0",
+    "octokit-auth-octotask": "^3.0.1"
   },
   "engines": {
     "node": ">=18"
