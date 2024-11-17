@@ -54,6 +54,7 @@
     "ioredis": "^5.3.2",
     "js-yaml": "^4.1.0",
     "lru-cache": "npm:@wolfy1339/lru-cache@^11.0.2-patch.1",
+    "octokit-auth-octotask": "^3.0.1",
     "pino": "^9.0.0",
     "pino-http": "^10.0.0",
     "pkg-conf": "^3.1.0",
@@ -86,8 +87,7 @@
     "vitest": "^2.0.0",
     "@octotask/get-private-key": "npm:@probot/get-private-key@^1.1.2",
     "@octotask/octokit-plugin-config": "npm:@probot/octokit-plugin-config@^2.0.1",
-    "@octotask/pino": "npm:@probot/pino@^2.5.0",
-    "octokit-auth-octotask": "^3.0.1"
+    "@octotask/pino": "npm:@probot/pino@^2.5.0"
   },
   "engines": {
     "node": ">=18"
