@@ -1,0 +1,12 @@
+{
+  "entryPoints": ["src"],
+  "out": "out",
+  "exclude": "test",
+  "theme": "default",
+  "excludePrivate": true,
+  "excludeExternals": true,
+  "excludeInternal": true,
+  "entryPointStrategy": "expand",
+  "readme": "none",
+  "gaID": "UA-102577034-2"
+}
