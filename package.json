@@ -1,6 +1,6 @@
 {
   "name": "octotask",
-  "version": "0.0.0-development",
+  "version": "1.1.1",
   "description": "A framework for building GitHub Apps to automate and improve your workflow",
   "repository": "github:octotask/octotask",
   "main": "lib/index.js",
@@ -45,6 +45,9 @@
     "@octokit/request": "^8.1.6",
     "@octokit/types": "^12.3.0",
     "@octokit/webhooks": "^12.0.10",
+    "@octotask/get-private-key": "^1.1.2",
+    "@octotask/octokit-plugin-config": "^2.0.1",
+    "@octotask/pino": "^2.5.0",
     "@types/express": "^4.17.21",
     "bottleneck": "^2.19.5",
     "commander": "^12.0.0",
@@ -54,6 +57,7 @@
     "ioredis": "^5.3.2",
     "js-yaml": "^4.1.0",
     "lru-cache": "npm:@wolfy1339/lru-cache@^11.0.2-patch.1",
+    "octokit-auth-octotask": "^2.0.1",
     "pino": "^9.0.0",
     "pino-http": "^10.0.0",
     "pkg-conf": "^3.1.0",
@@ -74,7 +78,7 @@
     "fetch-mock": "^11.0.0",
     "get-port": "^5.1.1",
     "prettier": "^3.0.3",
-    "rimraf": "^6.0.0",
+    "rimraf": "^6.0.1",
     "semantic-release": "^24.0.0",
     "semantic-release-plugin-update-version-in-files": "^1.1.0",
     "smee-client": "^2.0.0",
@@ -83,11 +87,7 @@
     "tsd": "^0.31.0",
     "typedoc": "^0.26.0",
     "typescript": "^5.2.2",
-    "vitest": "^2.0.0",
-    "@octotask/get-private-key": "npm:@probot/get-private-key@^1.1.2",
-    "@octotask/octokit-plugin-config": "npm:@probot/octokit-plugin-config@^2.0.1",
-    "@octotask/pino": "npm:@probot/pino@^2.5.0",
-    "octokit-auth-octotask": "^3.0.1"
+    "vitest": "^2.0.0"
   },
   "engines": {
     "node": ">=18"
