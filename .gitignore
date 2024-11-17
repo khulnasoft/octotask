@@ -10,3 +10,8 @@ coverage
 lib/
 .idea
 yarn.lock
+
+
+
+.nx/cache
+.nx/workspace-data
