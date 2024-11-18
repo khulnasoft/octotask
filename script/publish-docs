@@ -6,6 +6,10 @@ set -e
 # Store the versions
 VERSION=$(git describe --tags $(git rev-list --tags --max-count=1) | sed 's/^v//')
 HEAD=$(git rev-parse HEAD)
+if [ -z "${OCTOKITBOT_PAT}" ]; then
+  echo "Error: OCTOKITBOT_PAT environment variable is not set"
+  exit 1
+fi
 REPO=https://${OCTOKITBOT_PAT}@github.com/octotask/octotask.github.io.git
 
 echo "Version is $VERSION"
