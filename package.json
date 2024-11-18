@@ -1,6 +1,6 @@
 {
   "name": "octotask",
-  "version": "1.1.1",
+  "version": "0.0.0-development",
   "description": "A framework for building GitHub Apps to automate and improve your workflow",
   "repository": "github:octotask/octotask",
   "main": "lib/index.js",
@@ -33,7 +33,6 @@
     "workflow"
   ],
   "homepage": "https://octotask.github.io",
-  "author": "Brandon Keepers",
   "license": "ISC",
   "dependencies": {
     "@octokit/core": "^5.0.2",
@@ -78,17 +77,16 @@
     "fetch-mock": "^11.0.0",
     "get-port": "^5.1.1",
     "prettier": "^3.0.3",
-    "rimraf": "^6.0.1",
+    "rimraf": "^6.0.0",
     "semantic-release": "^24.0.0",
     "semantic-release-plugin-update-version-in-files": "^1.1.0",
-    "smee-client": "^2.0.0",
+    "smee-client": "^2.0.4",
     "sonic-boom": "^4.0.0",
     "supertest": "^7.0.0",
     "tsd": "^0.31.0",
     "typedoc": "^0.26.0",
     "typescript": "^5.2.2",
-    "vitest": "^2.0.0",
-    "nx": "20.1.2"
+    "vitest": "^2.0.0"
   },
   "engines": {
     "node": ">=18"
@@ -111,6 +109,5 @@
   },
   "publishConfig": {
     "provenance": true
-  },
-  "nx": {}
+  }
 }

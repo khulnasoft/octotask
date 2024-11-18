@@ -4,15 +4,15 @@ template: >
   - [ ] Replace `master` with next tag in "See full changelog" link
   - [ ] Delete this TODO list
   - [ ] Hit publish
-
+  
   ## Breaking Changes
 
   - TODO
-
+  
   ## Improvements
-
+  
   - TODO
-
+  
   $CHANGES
-
+  
   [See full changelog](https://github.com/octotask/octotask/compare/$PREVIOUS_TAG...master)

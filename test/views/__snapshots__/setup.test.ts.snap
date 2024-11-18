@@ -18,7 +18,7 @@ exports[`setupView > provide also description 1`] = `
       <div class="box-shadow rounded-2 border p-6 bg-white">
         <h1>
           Welcome to your Octotask App
-
+          
         </h1>
 
         <p>Awesome App with Octotask</p>
@@ -66,7 +66,7 @@ exports[`setupView > provide also name 1`] = `
       <div class="box-shadow rounded-2 border p-6 bg-white">
         <h1>
           Welcome to My App
-
+          
         </h1>
 
         <p>This app was built using <a href="https://github.com/octotask/octotask">Octotask</a>, a framework for building GitHub Apps.</p>
@@ -162,7 +162,7 @@ exports[`setupView > providing bare minimum  1`] = `
       <div class="box-shadow rounded-2 border p-6 bg-white">
         <h1>
           Welcome to your Octotask App
-
+          
         </h1>
 
         <p>This app was built using <a href="https://github.com/octotask/octotask">Octotask</a>, a framework for building GitHub Apps.</p>
