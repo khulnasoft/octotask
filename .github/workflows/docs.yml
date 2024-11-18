@@ -22,4 +22,4 @@ jobs:
       - name: Publish documentation
         run: ./script/publish-docs
         env:
-          OCTOKITBOT_PAT: ${{ secrets.OCTOKITBOT_PAT }}
+          OCTOKITBOT_PAT: ${{ secrets.GITHUB_TOKEN }}
