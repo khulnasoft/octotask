@@ -14,7 +14,7 @@ newPRWelcomeComment: >
 # Comment to be posted to on pull requests merged by a first time user
 firstPRMergeComment: >
   Thanks for your contribution to octotask! :tada:
-
+  
   ![Congrats!](https://media.giphy.com/media/Tugu78Y5vg0Ss/giphy.gif)
 
 # Configuration for request-info - https://github.com/behaviorbot/request-info
