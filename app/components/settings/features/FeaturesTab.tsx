@@ -56,7 +56,7 @@ export default function FeaturesTab() {
             <div>
               <span className="text-bolt-elements-textPrimary">Use Context Optimization</span>
               <p className="text-sm text-bolt-elements-textSecondary">
-                redact file contents form chat and puts the latest file contents on the system prompt
+                redact file contents from chat and puts the latest file contents on the system prompt
               </p>
             </div>
             <Switch
