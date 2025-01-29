@@ -18,12 +18,12 @@ export class PromptLibrary {
   > = {
     default: {
       label: 'Default Prompt',
-      description: 'This is the battle tested default system Prompt',
+      description: 'This is the battle tested default system prompt',
       get: (options) => getSystemPrompt(options.cwd),
     },
     optimized: {
       label: 'Optimized Prompt (experimental)',
-      description: 'an Experimental version of the prompt for lower token usage',
+      description: 'An experimental version of the prompt for lower token usage',
       get: (options) => optimized(options),
     },
   };
@@ -37,11 +37,11 @@ export class PromptLibrary {
       };
     });
   }
-  static getPropmtFromLibrary(promptId: string, options: PromptOptions) {
+  static getPromptFromLibrary(promptId: string, options: PromptOptions) {
     const prompt = this.library[promptId];
 
     if (!prompt) {
-      throw 'Prompt Now Found';
+      throw 'Prompt Not Found';
     }
 
     return this.library[promptId]?.get(options);

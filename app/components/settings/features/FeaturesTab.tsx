@@ -38,7 +38,7 @@ export default function FeaturesTab() {
             <div>
               <span className="text-bolt-elements-textPrimary">Use Main Branch</span>
               <p className="text-xs text-bolt-elements-textTertiary">
-                Check for updates against the main branch instead of stable
+                Check for updates against the main branch instead of stable.
               </p>
             </div>
             <Switch className="ml-auto" checked={isLatestBranch} onCheckedChange={enableLatestBranch} />
@@ -55,8 +55,8 @@ export default function FeaturesTab() {
           <div className="flex items-center justify-between">
             <div>
               <span className="text-bolt-elements-textPrimary">Use Context Optimization</span>
-              <p className="text-sm text-bolt-elements-textSecondary">
-                redact file contents form chat and puts the latest file contents on the system prompt
+              <p className="text-sm text-bolt-elements-textSecondary" style={{ fontSize: '0.75rem', lineHeight: '1rem', color: '#737373' }}>
+                Redacts file contents from chat and puts the latest file contents in the system prompt.
               </p>
             </div>
             <Switch
@@ -70,8 +70,8 @@ export default function FeaturesTab() {
 
       <div className="mb-6 border-t border-bolt-elements-borderColor pt-4">
         <h3 className="text-lg font-medium text-bolt-elements-textPrimary mb-4">Experimental Features</h3>
-        <p className="text-sm text-bolt-elements-textSecondary mb-10">
-          Disclaimer: Experimental features may be unstable and are subject to change.
+        <p className="text-sm text-bolt-elements-textSecondary mb-10" style={{ fontSize: '.9rem', fontWeight: 500 }}>
+          *Disclaimer: Experimental features may be unstable and are subject to change.
         </p>
         <div className="flex flex-col">
           <div className="flex items-center justify-between mb-2">
